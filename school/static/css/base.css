@@ -1,0 +1,19 @@
+* {margin: 0px;padding: 0px;
+    font-family:"Microsoft YaHei",PingFang SC,"Heiti SC",PingFang-SC-Medium, Helvetica Neue, Arial, sans-serif;;
+}
+
+table,td,tr,ul,ol,li,dl,dd,dt,p,input,form,em,p,img,h1,h2,h3,h4,h5{margin:0px;padding:0px;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,blockquote,p,span{ font-size:14px;}
+ul,li{ list-style:none;}
+.cursor{cursor:pointer;}
+.clear{font-size:0;line-height:0;height:0;clear:both;visibility:hidden;overflow:hidden}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.strong {font-weight: bolder;}
+img {border:0;}
+a{ text-decoration:none;color:#686868;}
+

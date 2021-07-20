@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+body {
+  background: #FAFAFA;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.modal-padding {
+  padding: 1.2rem 0 1.2rem;
+}
+
+.modal-banner {
+  width: 100%;
+  background: linear-gradient(180deg, #231833 0%, #4A3774 50%, #231B34 100%, #543E8B 100%);
+  border-radius: 0px 0px 0px 2.4rem;
+  padding: 2.2rem 0 1.4rem;
+  .modal-banner-wrap {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .right {
+    margin-left: 2rem;
+    img {
+      width: 100%;
+    }
+    @media screen and (max-width: 414px) {
+      width: auto;
+      margin-left: 0;
+      margin-top: 0.6rem;
+    }
+  }
+  .left {
+    h3 {
+      font-size: 0.4rem;
+      color: #FFFFFF;
+      line-height: 0.6rem;
+    }
+    p {
+      font-size: 0.22rem;
+      color: #E4E4E3;
+      line-height: 2;
+      margin: 0.37rem 0 0.6rem;
+    }
+    .btns {
+      a {
+
+        line-height: 0.6rem;
+        background: #4ED0DC;
+        box-shadow: 4px 6px 4px 0px rgba(37, 146, 156, 0.3);
+        border-radius: 0.1rem;
+        display: inline-block;
+        text-align: center;
+        font-size: 0.24rem;
+        color: #fff;
+        margin-right: 0.4rem;
+        padding: 0 0.24rem;
+      }
+      span {
+        font-size: 0.22rem;
+        color: #4ED0DC;
+        line-height: 0.6rem;
+      }
+    }
+
+  }
+}
+
+.title {
+  text-align: center;
+  h2 {
+    font-size: 0.5rem;
+    color: #8B60DF;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 0.24rem;
+    color: #BDC2C4;
+    margin-top: 0.1rem;
+  }
+}
+
+.mission {
+  padding: 1.2rem 0 1rem;
+
+  .mission-img {
+    width: 71.61%;
+    margin: 0 auto;
+  }
+
+  .mission-img img {
+    width: 100%;
+  }
+  .subtext {
+    color: #543E8B;
+    margin-top: 0.3rem;
+    letter-spacing: 2px;
+    font-size: 0.22rem;
+  }
+}
+
+.knowus {
+  .knowus-wrap {
+    width: 100%;
+    border-radius: 0px 2.4rem 0px 0px;
+    background: #fff;
+    padding: 1.2rem 0;
+  }
+
+  .knowus-list-wrap {
+    padding: 0 7.4%;
+    @media screen and (max-width: 414px) {
+      padding: 0;
+    }
+  }
+  .knowus-item {
+    min-height: 7.34rem;
+    @media screen and (max-width: 414px) {
+      margin-bottom:0.4rem;
+    }
+  }
+
+  .knowus-list {
+    margin-top: 0.6rem;
+  }
+
+  .knowus-item .ki-avatar {
+    //border-radius: 0.2rem;
+    height: 3.19rem;
+    overflow: hidden;
+    img {
+      height: 100%;
+    }
+  }
+
+  .ki-info .ki-name {
+    color: #543E8B;
+    line-height: 0.6rem;
+    font-size: 0.38rem;
+    font-weight: 600;
+  }
+
+  .ki-info {
+    margin-top: 0.6rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #BDC2C4;
+  }
+
+  .ki-info .ki-position {
+    color: #543E8B;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    font-size: 0.22rem;
+  }
+
+  .ki-intro {
+    margin-top: 0.2rem;
+    color: #888888;
+    line-height: 2;
+    font-size: 0.2rem;
+  }
+}
+
+.joinus {
+  padding: 1rem 0 0.8rem;
+
+  .subtext {
+    color: #543E8B;
+    margin-top: 0.3rem;
+    letter-spacing: 2px;
+    font-size: 0.22rem;
+  }
+  .joinus-wrap {
+    padding: 0 9.38%;
+    @media screen and (max-width: 414px) {
+      padding: 0;
+    }
+  }
+
+  .joinus-list {
+    margin-top: 0.6rem;
+
+  }
+
+  .jl-item {
+    margin-bottom: 0.5rem;
+    background: #E4E4E3;
+    border-radius: 0.2rem;
+    font-size: 0.3rem;
+    color: #543E8B;
+    text-align: center;
+    line-height: 0.9rem;
+    font-weight: 600;
+
+  }
+}
+
+#footer {
+  width: 100%;
+  background: linear-gradient(180deg, #4ED0DC 0%, #8B60DF 100%);
+  .footer-wrap {
+    padding: 0.96rem 9%;
+    .ft-item {
+      color: #FFFFFF;
+      line-height: 1.5;
+      font-size: 0.28rem;
+      text-align: left;
+      padding-bottom: 0.16rem;
+      font-weight: 600;
+    }
+    .fb-item {
+      @media screen and (max-width: 414px) {
+        padding-top: 0.16rem;
+      }
+      padding-top: 0.4rem;
+      border-top: 2px solid #fff;
+    }
+    .fb-item li {
+      color: #FFFFFF;
+      line-height: 2;
+      font-size: 0.24rem;
+      text-align: left;
+    }
+    .footer-item {
+      @media screen and (max-width: 414px) {
+        margin-bottom: 0.4rem;
+      }
+
+    }
+  }
+
+}
+
+
+
+

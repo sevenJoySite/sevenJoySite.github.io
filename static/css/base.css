@@ -1,0 +1,23 @@
+html,
+body,
+p,
+img {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px; }
+
+a {
+  text-decoration: none; }
+
+select {
+  width: 200px;
+  height: 30px;
+  line-height: 30px; }
+
+input[type="range"] {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  outline: 0; }

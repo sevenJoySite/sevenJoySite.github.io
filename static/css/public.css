@@ -1,0 +1,234 @@
+.p-container {
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.p-modal-container {
+  padding: 0 20px;
+  min-width: 600px;
+  box-sizing: border-box; }
+  .p-modal-container-manage {
+    min-width: 800px; }
+
+.p-left {
+  float: left; }
+
+.p-right {
+  float: right; }
+
+.p-clear::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.p-img {
+  display: block; }
+
+.p-btn {
+  display: block;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  color: #000;
+  line-height: 40px;
+  padding: 0 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+  cursor: pointer;
+  min-width: 100px; }
+  .p-btn-cancel {
+    background: #aaaaaa;
+    border: 1px solid #a4a4a4; }
+
+.p-table {
+  font-size: 14px;
+  border-bottom: 2px solid #e46c0a; }
+  .p-table-unit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px; }
+  .p-table-header {
+    background: #d9d9d9;
+    border-top: 2px solid #fff; }
+    .p-table-header .p-table-col {
+      border-bottom: 2px solid #e46c0a; }
+  .p-table-body .p-table-row:nth-child(even) {
+    background: #f2f2f2; }
+  .p-table-body .p-table-row.white {
+    background: #fff; }
+  .p-table-body .p-table-row.gray {
+    background: #f2f2f2; }
+  .p-table-body .p-table-row.gray2 {
+    background: #d9d9d9; }
+  .p-table-body .p-table-row.blue1 {
+    background: #b7dee8; }
+  .p-table-body .p-table-row.blue2 {
+    background: #dbeef4; }
+  .p-table-footer {
+    background: #d9d9d9; }
+  .p-table-row {
+    display: flex;
+    width: 100%; }
+  .p-table-col {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    line-height: 20px;
+    text-align: center;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-break: break-all;
+    word-wrap: break-word; }
+    .p-table-col img {
+      display: inline-block;
+      height: 30px;
+      margin-top: 5px; }
+  .p-table-box {
+    display: flex; }
+
+.p-flex {
+  display: flex; }
+
+.p-flex1 {
+  flex: 1; }
+
+.p-flex2 {
+  flex: 2; }
+
+.p-flex3 {
+  flex: 3; }
+
+.p-flex4 {
+  flex: 4; }
+
+.p-flex5 {
+  flex: 5; }
+
+.p-flex6 {
+  flex: 6; }
+
+.p-block-center {
+  margin: 0 auto; }
+
+.p-text-center {
+  text-align: center; }
+
+.p-text-left {
+  text-align: left;
+  justify-content: flex-start; }
+
+.p-text-right {
+  text-align: right;
+  justify-content: flex-end; }
+
+.p-strong {
+  font-weight: bolder; }
+
+.p-pl20 {
+  padding-left: 20px; }
+
+.p-ml10 {
+  margin-left: 10px; }
+
+.p-mb15 {
+  margin-bottom: 15px; }
+
+.p-mb20 {
+  margin-bottom: 20px; }
+
+.p-bb2 {
+  border-bottom: 2px solid #d9d9d9; }
+
+.p-text-indent {
+  text-indent: 1em; }
+
+.p-text-indent2 {
+  text-indent: 2em; }
+
+.p-blue {
+  color: #0101ff; }
+
+.p-red {
+  color: #ff0000; }
+
+.p-tip {
+  line-height: 30px; }
+
+.p-top {
+  height: 80px;
+  border-bottom: 3px solid #e46c0a;
+  justify-content: space-between;
+  align-items: center; }
+  .p-top-img {
+    height: 40px; }
+  .p-top-right {
+    height: 80px;
+    align-items: flex-end; }
+  .p-top-title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px; }
+
+.p-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .p-header .p-btn {
+    height: 40px; }
+  .p-header-empty {
+    width: 100px; }
+
+.p-title {
+  font-size: 38px;
+  margin: 24px 0; }
+
+.p-main {
+  margin-bottom: 24px; }
+
+.p-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px; }
+
+.p-pagenum {
+  font-size: 18px;
+  color: #666; }
+
+.p-title-blue {
+  font-size: 20px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #ccffff;
+  text-align: center; }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 14;
+  border-bottom: 2px solid #e46c0a; }
+  .table tr:nth-child(odd) td {
+    background: #f2f2f2; }
+    .table tr:nth-child(odd) td.white {
+      background: #fff; }
+    .table tr:nth-child(odd) td.gray {
+      background: #f2f2f2; }
+  .table tr.header {
+    background: #d9d9d9; }
+  .table tr.border {
+    border-top: 2px solid #d9d9d9; }
+  .table th {
+    border: 2px solid #fff;
+    border-bottom: 2px solid #e46c0a; }
+  .table tr td.red {
+    color: red; }
+  .table tr td.blue {
+    color: blue; }

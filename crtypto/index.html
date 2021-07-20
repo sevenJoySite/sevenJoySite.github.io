@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加密大亨</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/base.css">
+    <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <script src="static/js/jquery-2.2.4.min.js"></script>
+    <script>
+        $(function () {
+            function calcFontSize() {
+                var desW = 1920
+                var winW = document.documentElement.clientWidth
+                var winH = document.documentElement.clientHeight
+                var ratio = winW / desW
+                console.log(ratio)
+                var wHRatio = winH / winW;
+                if (wHRatio > 1.2) {
+                    wHRatio = 2;
+                } else {
+                    wHRatio = 1;
+                }
+                document.documentElement.style.fontSize = ratio * 0.9 * wHRatio * 100 + "px"
+            }
+
+            window.onresize = calcFontSize;
+            calcFontSize()
+        });
+    </script>
+</head>
+<body>
+
+
+<header id="header">
+    <a class="brand" href="index.html">
+        <img src="static/images/index/brand.png" alt="">
+    </a>
+    <div class="menus">
+        <div class="font-weight-bold navbar-nav">
+            <a href="modal.html">
+                <img src="static/images/index/icon-经济模型.png" alt="">
+                <span>经济模型</span>
+            </a>
+            <a href="team.html">
+                <img src="static/images/index/icon-团队介绍.png" alt="">
+                <span>团队介绍</span>
+            </a>
+            <a href="javascript:;">
+                <img src="static/images/index/icon-说明文档.png" alt="">
+                <span>说明文档</span>
+            </a>
+            <a href="brand.html">
+                <img src="static/images/index/icon-品牌指南.png" alt="">
+                <span>品牌指南</span>
+            </a>
+            <div style="flex: 1;"></div>
+            <a href="javascript:;" class="i18n-btn">
+                <img src="static/images/index/形状(4).png" alt="">
+                <span>EN</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<div class="index">
+    <div class="index-box-0">
+        <div class="container">
+            <div class="row">
+                <div class="img-wrap">
+                    <img src="static/images/index/椭圆形.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <h1>基于BSC链上的大富翁游戏</h1>
+            </div>
+            <div class="row">
+                <p>由一群游戏玩家和加密爱好者所建立<br>
+                    通过BNB、BUSD、BTT等加密资产来运行</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container index-box-1">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="img-wrap img-center">
+                    <img class="img-max" src="static/images/index/资源 5@3x.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <h3 class="section-aside-title">加密大亨</h3>
+                <p class="section-aside-normal-desc">加密大亨（CryptoTycoon）是一款基于BSC链上打造的大富翁游戏，玩家可以在游戏中花费 BNB、BUSD、USDT 等
+                    BSC链上的代币，来获取摇骰子的机会，并在各自上建立住房或商店，来参与游戏挖矿，同时游戏具有良好的代币通缩机制和分红模型，如一旦建立的住房或商店无法按时交纳税金，将会被强平。目前CTT 总量为 100
+                    万枚，链上转账会销毁5%。</p>
+                <div class="my-btn-group">
+                    <a href="javascript:void(0)" class="btn btn-info">说明文档</a>
+                    <a href="javascript:void(0)" class="btn btn-info">合约地址</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index-box-5" >
+        <div class="container index-box-2">
+            <h2 class="section-aside-title-2 text-align-center">白手起步</h2>
+            <small class="title-small text-align-center">Start from scratch</small>
+            <div class="container-fluid margin-top">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="img-wrap img-center">
+                            <img class="img-max" src="static/images/index/资源 18@3x.png" alt="">
+                        </div>
+                        <div class="title-and-img-wrap">
+                            <div class="img-wrap">
+                                <img class="img-max" src="static/images/index/形状.png" alt="">
+                            </div>
+                            <h4>房屋土地</h4>
+                        </div>
+                        <p>在36格子的地图中，有四种不同类型的土地，可以建设相应的房屋，并对其进行改造升级，愈加稀有的土地和级别越高的房屋会让挖矿的速度更快。</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="img-wrap img-center">
+                            <img class="img-max" src="static/images/index/资源 14@3x.png" alt="">
+                        </div>
+                        <div class="title-and-img-wrap">
+                            <div class="img-wrap">
+                                <img class="img-max" src="static/images/index/形状(1).png" alt="">
+                            </div>
+                            <h4>税金系统</h4>
+                        </div>
+                        <p>在不同类型的土地上建设房屋，需要定时缴纳相应的 BNB、BUSD 作为税金，该税金会统一存放至税金池中，以定期对 CTT 持有者进行链上分红。</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="img-wrap img-center">
+                            <img class="img-max" src="static/images/index/资源 16@3x.png" alt="">
+                        </div>
+                        <div class="title-and-img-wrap">
+                            <div class="img-wrap">
+                                <img class="img-max" src="static/images/index/形状(2).png" alt="">
+                            </div>
+                            <h4>链上通缩</h4>
+                        </div>
+                        <p>CryptoTycoon 的治理资产 CTT，总量仅 100 万枚，其中 85% 需要参与游戏、社区贡献来获得，目前链上转移 CTT，会永久销毁转移额的 5%。</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="img-wrap img-center">
+                            <img class="img-max" src="static/images/index/资源 17@3x.png" alt="">
+                        </div>
+                        <div class="title-and-img-wrap">
+                            <div class="img-wrap">
+                                <img class="img-max" src="static/images/index/形状(3).png" alt="">
+                            </div>
+                            <h4>随机事件</h4>
+                        </div>
+                        <p>在地图中，有 32 种不同属性的土地，会用于房屋建设，而剩余的 4 种土地，踩踏停留会触发随机事件，其中包括空投 BNB、房屋随机升级。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container index-box-3">
+        <h2 class="section-aside-title-2 text-align-center">神奇骰子</h2>
+        <small class="title-small text-align-center">Magical Dice</small>
+        <p class="color-desc-after-title">在加密大亨（CryptoTycoon）中，任何移动都需要骰子来进行，它能帮助你决定前往那个土地，每一种骰子有不同的作用，获得方式也有所不同</p>
+        <div class="row margin-top6">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="card-with-shadow card-with-bg"
+                     style="background-image: url('static/images/index/资源 8@3x备份.png')">
+                    <div class="img-wrap">
+                        <img class="img-max" src="static/images/index/资源 8@3x.png" alt="">
+                    </div>
+                    <h5 class="card-title">普通骰子</h5>
+                    <p class="card-desc-p">没有任何技能的骰子</p>
+                    <p class="card-desc-p">摇骰后会出现2-12随机数</p>
+                    <p class="card-desc-p">容易获得</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="card-with-shadow card-with-bg"
+                     style="background-image: url('static/images/index/资源 7@3x备份.png')">
+                    <div class="img-wrap">
+                        <img class="img-max" src="static/images/index/资源 7@3x.png" alt="">
+                    </div>
+                    <h5 class="card-title">幸运骰子</h5>
+                    <p class="card-desc-p">可以选择指定区间的稀有骰子</p>
+                    <p class="card-desc-p">摇骰前可选择</p>
+                    <p class="card-desc-p">2-5、6-9、10-12区间</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="card-with-shadow card-with-bg"
+                     style="background-image: url('static/images/index/资源 6@3x备份 2.png')">
+                    <div class="img-wrap">
+                        <img class="img-max" src="static/images/index/资源 6@3x.png" alt="">
+                    </div>
+                    <h5 class="card-title">黄金骰子</h5>
+                    <p class="card-desc-p">可直接选择2-12任意数字的传说级</p>
+                    <p class="card-desc-p">骰子，不公开发售，</p>
+                    <p class="card-desc-p">仅IDO和社区活动发放</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index-box-5" id="index-box-5">
+        <div class="container">
+            <h2 class="section-aside-title-2 text-align-center">建设性挖矿</h2>
+            <small class="title-small text-align-center">Constructive mining</small>
+            <p class="color-desc-after-title">与市场上流行的Defi质押挖矿不同，加密大亨中采用的是建设性挖矿，随着玩家的房屋不断建设、房屋等级也在不断提升，挖矿的产出速度也会增加。</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="img-wrap min-height-250">
+                            <img class="img-max" src="static/images/index/0103-1.png" alt="">
+                        </div>
+                        <div class="title-and-img-wrap flex-justify-left">
+                            <h4 class="text-align-left">居民住宅</h4>
+                        </div>
+                        <p class="line-height-p">普通的住宅房屋<br/>
+                            挖矿速度一般，税金较少</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="img-wrap min-height-250">
+                            <img class="img-max" src="static/images/index/0103-2.png" alt="">
+                        </div>
+                        <div class="title-and-img-wrap flex-justify-left">
+                            <h4 class="text-align-left">商店</h4>
+                        </div>
+                        <p class="line-height-p">稀有的商店<br/>
+                            挖矿速度较快，税金较高</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="img-wrap min-height-250">
+                            <img class="img-max" src="static/images/index/0103-3.png" alt="">
+                        </div>
+                        <div class="title-and-img-wrap flex-justify-left">
+                            <h4 class="text-align-left">银行</h4>
+                        </div>
+                        <p class="line-height-p">史诗级的银行<br/>
+                            挖矿速度极快，税金最贵</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="img-wrap min-height-250">
+                            <img class="img-max" src="static/images/index/0103-4.png" alt="">
+                        </div>
+                        <div class="title-and-img-wrap flex-justify-left">
+                            <h4>服务机构</h4>
+                        </div>
+                        <p class="line-height-p">传说级的机构<br/>
+                            挖矿速度极快，税金较少</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container index-box-1">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h3 class="section-aside-title-2">游戏体验</h3>
+                <p class="color-desc-after-title text-align-left" style="font-size:0.3rem;margin: 0.3rem 0;">
+                    加密大亨（CryptoTycoon）分五种开放阶段</p>
+                <ul class="manifest-list">
+                    <li>IDO「骰子预售」</li>
+                    <li>内测「白名单测试」</li>
+                    <li>公测「BSC正式上线」</li>
+                    <li>跨链「其他区块链接入」</li>
+                    <li>v2.0「2022年版本」</li>
+                </ul>
+                <div>
+                    <a href="javascript:void(0)" class="btn btn-info">加入游戏</a>
+                    <span style="color: #888888; margin-left: 20px;position: relative;top: 2px;font-size:0.22rem;">目前未开放内测</span>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="img-wrap img-center">
+                    <img class="img-max img-max-width" src="static/images/index/0104.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container index-box-1" style="padding-top:0;">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="img-wrap img-center">
+                    <img class="img-max img-max-width" src="static/images/index/0105.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h3 class="section-aside-title-2">经济模型</h3>
+                <p>加密大亨（CryptoTycoon）由一套经济系统所运行，里面涵盖 BNB、BUSD、USDT、CTT 等多样性的加密资产，以迎合 BSC 上各人群的使用需求，同时加密大亨的治理资产
+                    CTT，在创世之处总量就仅限 100 万枚，并写入了 5% 链上转账手续费销毁的机制，同时还有游戏内的回购设定，减少 CTT 的市场流通。</p>
+                <p class="color-desc-after-title" style="text-align: left;">CTT是 CryptoTycoon Token 的简写</p>
+                <div>
+                    <a href="javascript:void(0)" class="btn btn-info">查看详情</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index-box-4">
+        <div class="container">
+            <h2 class="section-aside-title-2">背后的故事</h2>
+            <small class="title-small">back story</small>
+            <p class="color-desc-after-title text-align-left" style="margin:0.3rem 0 0.7rem;">既是加密爱好者，又是游戏玩家<br/>
+                欢迎认识我们的工作室，在加密世界保持彼此间的零距离。</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="about-us-item">
+                        <div class="img-wrap">
+                            <img src="static/images/team/teamer01.png" class="img-max img-max-width-2" alt="">
+                        </div>
+                        <div class="desc">
+                            <div class="name">Echo</div>
+                            <div class="professional-title">创始人</div>
+                            <p class="speech">加密货币领域从业 3 年，参与过 3A 级游戏系统策划，曾供职于动视暴雪、腾讯互动娱乐。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="about-us-item">
+                        <div class="img-wrap">
+                            <img class="img-max img-max-width-2" src="static/images/team/teamer02.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <div class="name">Thad</div>
+                            <div class="professional-title">联合创始人 / 亚太市场</div>
+                            <p class="speech">加密货币领域从业 4 年，参与过日活千万级游戏产品策划，曾供职于腾讯互动娱乐、乐动卓越、掌趣、京东游戏等公司业务部门。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="about-us-item">
+                        <div class="img-wrap">
+                            <img class="img-max img-max-width-2" src="static/images/team/teamer03.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <div class="name">Kuai Dong</div>
+                            <div class="professional-title">联合创始人 / 产品策划</div>
+                            <p class="speech">加密货币领域从业5年，曾供职于BlockBeats、Yuanbao、NewBloc 等加密业务公司，休闲女装爱好者。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="about-us-item">
+                        <div class="img-wrap">
+                            <img class="img-max img-max-width-2" src="static/images/team/teamer04.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <div class="name">Terry</div>
+                            <div class="professional-title">联合创始人 / 商务合作</div>
+                            <p class="speech">加密货币领域从业 4 年，曾供职于腾讯互动娱乐、MXC 交易所、开心网，在进入加密货币领域前，他拥有 5 年的游戏运营从业经历。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="about-us-item">
+                        <div class="img-wrap">
+                            <img class="img-max img-max-width-2" src="static/images/team/teamer05.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <div class="name">Yu Liang</div>
+                            <div class="professional-title">联合创始人 / 欧美市场</div>
+                            <p class="speech">多伦多大学经济学与统计学双学位，曾供职于猎豹移动、CoinTiger，主要负责欧美市场机构客户对接、市场运营拓展。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="about-us-item">
+                        <div class="img-wrap">
+                            <img class="img-max img-max-width-2" src="static/images/team/teamer06.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <div class="name">Susake</div>
+                            <div class="professional-title">顾问 / 社区大使</div>
+                            <p class="speech">PanCakeSwap、Helmet 社区大使，曾参与过 CENNZnet、BitMAX 的社区建设，并指导过多个明星项目，拓展社区。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+
+            </div>
+            <div class="check-more-about-us-wrap">
+                <a href="javascript:void(0)" class="btn btn-info btn-lg">查看更多有关我们的故事</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer id="footer" class="container">
+    <div class="footer-wrap ">
+        <div class="footer-top footer-inner row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footer-item">
+                <div class="ft-item">GAMES</div>
+                <ul class="fb-item">
+                    <li>CryptoTycoon</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 footer-item">
+                <div class="ft-item">Follow</div>
+                <ul class="fb-item">
+                    <li>Twitter</li>
+                    <li>Telegram</li>
+                    <li>WeChat</li>
+                    <li>Weibo</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="ft-item">LEGAL</div>
+                <ul class="fb-item">
+                    <li>@2020-2021 CryptoGeek Limited</li>
+                    <li>BVI | British Virgin Islands</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+</html>
